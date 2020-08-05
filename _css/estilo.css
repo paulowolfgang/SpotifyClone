@@ -1,0 +1,11 @@
+/*
+* 
+* @author Paulo Wolfgang
+*/
+
+/* ### Layout ###*/
+body {
+	background: url(../_imagens/capa.png), url(../_imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+}
+
