@@ -6,6 +6,7 @@
 /* ### Layout ###*/
 html, body, #home {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -75,18 +76,41 @@ nav.navbar-transparente {
 }
 
 /* ### Conteúdo ### */
-#servicos {
-	background: white;
+.caixa {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+#servicos {
+	background: white;
+}
+
+#recursos {
+	color: white;
 }
 
 #servicos h2, h3 {
 	color: #7c25f8;
 }
 
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
 .albuns {
 	padding: 10px 0;
+}
+
+/* ### Rotação Imagens ###*/
+.rotacionar {
+	transform: rotate(30deg);
+	padding-left: 80px;
+	-ms-transform: rotate(30deg); /* IE 9 */
+	-webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
 }
 
 /* ### Tipografia ###*/
